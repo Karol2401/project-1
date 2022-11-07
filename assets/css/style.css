@@ -9,7 +9,7 @@
 
 .header {
     width: 100%;
-    height: 200px;
+    height: 90px;
     display: block;
 }
 
@@ -24,7 +24,6 @@
     height: 100%;
     display: table;
     float: left;
-    background-color: rgba(150,150,150,0.5);
 }
 
 .header-left h1 {
@@ -55,4 +54,15 @@
     height: 100%;
     /*font-family:*/
     font-size: 24px;
+}
+
+/* main image */
+
+.main-image {
+    background-image: url(../images/question-mark-2492009_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
 }
