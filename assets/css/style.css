@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Top menu */
+
+.header {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.inside-header {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.header-left {
+    height: 100%;
+    display: table;
+    float: left;
+    background-color: rgba(150,150,150,0.5);
+}
+
+.header-left h1 {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    /*font-family: */
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+
+.navigation-header-right {
+    float: right;
+    height: 100%;
+}
+
+.navigation-header-right a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 30px;
+}
+
+.navigation-header-right a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    /*font-family:*/
+    font-size: 24px;
+}
